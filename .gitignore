@@ -1,0 +1,51 @@
+# ── Secrets ────────────────────────────────────────
+.env
+.env.local
+*.pem
+*.key
+
+# ── Runtime artifacts ──────────────────────────────
+runs/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ── APK / 二进制 ───────────────────────────────────
+*.apk
+
+# ── Python ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── IDE / 工具 ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.claude/
+
+# ── OS ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ───────────────────────────────────────────
+*.log
+logs/
+
+# ── 调试用临时文件 ─────────────────────────────────
+debug_*.png
+screenshot_*.png
+tmp_*.txt
